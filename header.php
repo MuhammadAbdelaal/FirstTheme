@@ -7,6 +7,7 @@
     <?php wp_head(); ?>
 </head>
     <body>
+    
+        <?php wp_nav_menu(array('theme_location'=>'primary')); ?> <!-- Display header menu -->
         <p>This is my header</p>
-
     
