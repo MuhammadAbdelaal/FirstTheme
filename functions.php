@@ -22,3 +22,6 @@ function first_theme_setup ( ) {
 }
 
 add_action( 'init', 'first_theme_setup'); // execute during initializing the theme
+
+add_theme_support('custom-background'); // custom background feature
+add_theme_support('post-thumbnails');   // custom imgae thumbnail / Featured Image
